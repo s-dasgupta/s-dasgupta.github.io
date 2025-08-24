@@ -4,36 +4,10 @@ title: "About Me"
 author_profile: true
 
 gallery:
-  - src: /images/sagar-portrait.jpg
+  - src: /images/Dasguapta_DP.jpg
     alt: Sagar Dasgupta portrait
     caption: Portrait
-  - src: /images/team-1.jpg
-    alt: Research team at the lab bench
-    caption: Lab team
-  - src: /images/team-2.jpg
-    alt: Team at conference venue
-    caption: Conference
-  - src: /images/demo-1.jpg
-    alt: GNSS demo setup
-    caption: GNSS demo
-  - src: /images/presentation-1.jpg
-    alt: Presenting at TRB
-    caption: TRB presentation
-  - src: /images/workzone-1.jpg
-    alt: Work zone safety field deployment
-    caption: Work zone deployment
-  - src: /images/award-1.jpg
-    alt: Award ceremony
-    caption: Award
-  - src: /images/collab-1.jpg
-    alt: Collaboration meeting
-    caption: Collaboration
-  - src: /images/lab-1.jpg
-    alt: Hardware-in-the-loop test setup
-    caption: HIL test
-  - src: /images/campus-1.jpg
-    alt: UA campus
-    caption: UA campus
+  
   # Add more photos up to 20
 ---
 
