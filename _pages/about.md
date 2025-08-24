@@ -6,6 +6,18 @@ author_profile: true
 redirect_from:
  -/about/
  -/about.html
+hero:
+  photo: /images/Dasguapta_DP.jpg
+  name: "SAGAR"
+  surname: "DASGUPTA"
+  title: "Postdoctoral Fellow"
+  lines:
+    - 'Connected and Automated <strong>Mobility Lab</strong>'
+    - 'Civil, Construction, and Environmental Engineering Department'
+    - 'The University of Alabama'
+    - '2009 SCIB (Smart Communities and Innovation Building)'
+    - '28 Kirkbride Lane, Tuscaloosa, AL 35487'
+    - '<a href="mailto:sdasgupta@ua.edu">sdasgupta@ua.edu</a>'
 ---
 
 ## Bio
