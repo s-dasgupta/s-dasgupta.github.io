@@ -5,13 +5,6 @@ author_profile: true
 redirect_from:
  -/about/
  -/about.html
-
-gallery:
-  - src: /images/Dasguapta_DP.jpg
-    alt: Sagar Dasgupta portrait
-    caption: Portrait
-  
-  # Add more photos up to 20
 ---
 
 # About Me
@@ -25,12 +18,6 @@ My work was supported by the **National Science Foundation (NSF)** and the **Ala
 I also hold an **M.S. in Mechanical Engineering** from **Clemson University** and a **B.Tech. in Mechanical Engineering** from **Motilal Nehru National Institute of Technology, Prayagraj, India**.  
 
 I am actively **seeking a tenure-track Assistant Professor position** and open to **collaborations in proposal writing**. I have contributed to the development of multiple **NSF and FMCSA proposals**, some of which secured funding. My collaborations span both **industry and academia**, involving researchers from **Computer Science, Electrical Engineering, Aerospace Engineering, and Physics**.
-
----
-
-# Photos
-
-{% include slider.html id="about-gallery" items=page.gallery %}
 
 ---
 
