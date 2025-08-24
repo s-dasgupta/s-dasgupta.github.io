@@ -1,0 +1,29 @@
+---
+layout: single
+title: "Teaching"
+author_profile: true
+toc: true
+---
+
+## Teaching Philosophy
+I want students to think like engineers. I design learning that is active, ethical, inclusive, and grounded in real systems. I emphasize core concepts first, then connect them to real problems, data, and tools. I value formative feedback, growth over one-shot correctness, and continuous improvement informed by student and peer feedback.
+
+## Pedagogy and Methods
+- **Problem-based learning**: teams work on open-ended transportation problems that require modeling, analysis, and design decisions.  
+- **Flipped classroom**: students preview content; class time is for labs, discussion, and application.  
+- **Tool-centric labs**: Civil 3D, survey instruments, Python notebooks, and traffic analysis packages.  
+- **Simulation and XR**: use simulation and mixed reality when it improves system understanding and safety.  
+- **Inclusive practice**: clear expectations, low-stakes checks for understanding, and targeted support for diverse learners.
+
+## Courses and Roles
+### Undergraduate
+- **CE 260 – Civil and Construction Surveying** — Lead Lab Instructor.  
+- **CE 350 – Introduction to Transportation Engineering** — Module Instructor.
+
+### Graduate
+- **CE 591 – Traffic Flow Theory** — Module Instructor.  
+- **CE 691 – Transportation Cyber-Physical Systems** — Co-developer and lab co-author.
+
+## Evidence of Teaching Effectiveness
+- **International Teaching Assistant Program – Full Pass** (UA, Apr 15, 2021).  
+- **Observed CE 260 Lab Session – Apr 6, 2021**: clarity, patience, software mastery, strong engagement.
