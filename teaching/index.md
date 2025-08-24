@@ -6,12 +6,12 @@ toc: true
 ---
 ## Courses and Roles
 ### Undergraduate
-- CE 260 – Civil and Construction Surveying — Lab Instructor -  Fall 2020, Spring 2021  
-- CE 350 – Introduction to Transportation Engineering — Module Instructor - Summer 2022, Fall 2024
+- CE260 Civil and Construction Surveying | Lab Instructor | Fall 2020, Spring 2021  
+- CE 350 Introduction to Transportation Engineering | Module Instructor | Summer 2022, Fall 2024
 
 ### Graduate
-- CE 591 – Traffic Flow Theory — Module Instructor -  Spring 2022  
-- CE 691 – Transportation Cyber-Physical Systems — Co-developer and Module Instructor - Fall 2023, Fall 2024
+- CE 591 Traffic Flow Theory | Module Instructor | Spring 2022  
+- CE 691 Transportation Cyber-Physical Systems | Co-developer and Module Instructor | Fall 2023, Fall 2024
 
 ## Evidence of Teaching Effectiveness
 - International Teaching Assistant Program – Full Pass** (UA, Apr 15, 2021).  
