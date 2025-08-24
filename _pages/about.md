@@ -1,6 +1,6 @@
 ---
 permalink: /
-#title: "Hello, I am Sagar!"
+title: "Welcome"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -22,20 +22,13 @@ hero:
 
 ## Bio
 
-Dr. Sagar Dasgupta is a Postdoctoral Fellow in the Department of Civil, Construction, and Environmental Engineering at The University of Alabama, working with the USDOT National Center for Transportation Cybersecurity and Resiliency (TraCR). His research focuses on cyber-resilient GNSS-based navigation for autonomous vehicles, transportation digital twins, and C-V2X security. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+Dr. Sagar Dasgupta is a Postdoctoral Fellow in the Department of Civil, Construction, and Environmental Engineering at The University of Alabama, working with the USDOT National Center for Transportation Cybersecurity and Resiliency (TraCR). His research focuses on cyber-resilient GNSS-based navigation for autonomous vehicles, transportation digital twins, and C-V2X security.
 
-He has contributed to multiple federally funded projects and proposals, including NSF CAREER and CRII awards, the TraCR university transportation center, and FMCSA projects on work-zone safety. Recent TraCR projects include roles as Co-PI on trustworthy autonomous vehicle navigation and post-quantum-ready V2X. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+He has contributed to federally funded projects and proposals, including NSF CAREER and CRII awards, the TraCR University Transportation Center, and FMCSA projects on work-zone safety. Recent TraCR efforts include roles on trustworthy autonomous vehicle navigation and post-quantum-ready V2X.
 
-Dr. Dasgupta’s technology demonstrations include team-lead roles at the USDOT Future of Transportation Summit 2024 and at the IEEE International Automated Vehicle Validation Conference 2023. He also presented at the TraCR Annual Conference 2024. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+His technology demonstrations include team-lead roles at the USDOT Future of Transportation Summit 2024 and the IEEE International Automated Vehicle Validation Conference 2023, as well as presentations at the TraCR Annual Conference 2024.
 
-He earned the Ph.D. in Civil Engineering at The University of Alabama under Prof. Mizanur Rahman, with the dissertation “Cyber-Resilient Positioning and Navigation for Autonomous Ground Vehicles.” He holds an M.S. in Mechanical Engineering from Clemson University and a B.Tech. in Mechanical Engineering from Motilal Nehru National Institute of Technology, India. :contentReference[oaicite:6]{index=6}
-
-His publications span journals such as IEEE Internet of Things Journal, IEEE Transactions on Intelligent Transportation Systems, and Transportation Research Record. :contentReference[oaicite:7]{index=7}
-
-Recent recognitions include Outstanding Research by a Ph.D. Student Award (UA CCEE, 2025), second place in the TraCR Annual Conference student poster competition (2024), the GRITS Scholarship (2023 and 2024), and the Lifesavers Traffic Safety Scholar Award (2023). :contentReference[oaicite:8]{index=8}
-
-Dr. Dasgupta serves the community as a member of the IEEE VTS Committee on Autonomous Vehicles, as a Friends-of-Committee participant in several TRB standing committees, and as a reviewer for leading journals including IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Vehicular Technology, and Transportation Research Record. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
-
+He earned the Ph.D. in Civil Engineering from The University of Alabama under Prof. Mizanur Rahman. He also holds an M.S. in Mechanical Engineering from Clemson University and a B.Tech. in Mechanical Engineering from Motilal Nehru National Institute of Technology, Prayagraj, India.
 
 ---
 
