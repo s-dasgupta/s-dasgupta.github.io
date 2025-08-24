@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I am Sagar!"
+#title: "Hello, I am Sagar!"
 excerpt: "About me"
 author_profile: true
 redirect_from:
