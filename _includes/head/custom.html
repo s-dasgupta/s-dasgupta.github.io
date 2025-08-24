@@ -17,55 +17,33 @@
 <!-- end custom head snippets -->
 
 <style>
-/* ----------------- Font stack used by the sidebar ----------------- */
+/* ==================== Unify font across the site ==================== */
 :root {
+  /* same stack the sidebar uses */
   --sd-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
              "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
-/* ----------------- Make the right column use the same stack ----------------- */
-/* Hit all main content wrappers used by AcademicPages / Minimal Mistakes */
-.page,
-.page__inner-wrap,
-.page__content,
-.archive,
-.archive__item,
-article,
-article p,
-article li,
-article dt,
-article dd,
-article table,
-article code,
-article pre,
-.page__content p,
-.page__content li,
-.page__content dt,
-.page__content dd,
-.page__content table,
-.page__content code,
-.page__content pre,
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4,
-.page__content h5,
-.page__content h6 {
+/* Force the main content area and headings to the sans stack */
+html, body,
+.page, .page__inner-wrap, .wrapper, .initial-content,
+.page__content, .page__lead, .page__title,
+.archive, .archive__item, .archive__item-title,
+.masthead, .masthead__menu, .site-title {
   font-family: var(--sd-sans) !important;
 }
 
-/* Heading weight to match sidebar feel */
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4,
-.page__content h5,
-.page__content h6 { font-weight: 600; }
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.page__title, .archive__item-title {
+  font-family: var(--sd-sans) !important;
+  font-weight: 600;
+}
 
-/* Tone down extra-heavy bold in paragraphs */
-.page__content strong { font-weight: 600; }
+/* Keep code blocks monospace (do NOT force to sans) */
+code, pre, kbd, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
 
-/* ----------------- Hero card (photo + designation) ----------------- */
+/* ==================== Hero card (photo + designation) ==================== */
 .hero-card{
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -105,7 +83,7 @@ article pre,
 .hero-icon { font-size: 1.6rem; margin-right: .5rem; color: #333; }
 .hero-icon:hover { opacity: .85; }
 
-/* ----------------- Responsive ----------------- */
+/* ==================== Responsive ==================== */
 @media (max-width: 720px){
   .hero-card{ grid-template-columns: 1fr; text-align: center; }
   .hero-photo{ max-width: 260px; margin: 0 auto; }
