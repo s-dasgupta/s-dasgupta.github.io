@@ -6,12 +6,12 @@ toc: true
 ---
 ### Courses and Roles
 #### Undergraduate
-- **CE 260 – Civil and Construction Surveying** — Lead Lab Instructor.  
+- **CE 260 – Civil and Construction Surveying** — Lab Instructor.  
 - **CE 350 – Introduction to Transportation Engineering** — Module Instructor.
 
 #### Graduate
 - **CE 591 – Traffic Flow Theory** — Module Instructor.  
-- **CE 691 – Transportation Cyber-Physical Systems** — Co-developer and lab co-author.
+- **CE 691 – Transportation Cyber-Physical Systems** — Co-developer and Module Instructor.
 
 ### Evidence of Teaching Effectiveness
 - **International Teaching Assistant Program – Full Pass** (UA, Apr 15, 2021).  
