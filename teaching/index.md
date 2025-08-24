@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Teaching"
+#title: "Teaching"
 author_profile: true
 toc: true
 ---
