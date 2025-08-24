@@ -7,7 +7,7 @@ redirect_from:
  -/about/
  -/about.html
 hero:
-  photo: /images/Dasguapta_DP.jpg
+  photo: /images/Dasgupta_DP.jpg
   name: "SAGAR"
   surname: "DASGUPTA"
   title: "Postdoctoral Fellow"
