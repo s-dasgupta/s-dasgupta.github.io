@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "\images\Dasguapta_DP.jpg"
+  avatar           : "Dasguapta_DP.jpg"
   name             : "Sagar Dasgupta"
   pronouns         : "He/His" # example: "she/her"  
   bio              : "Advancing Intelligent Transportation and Mobility"
