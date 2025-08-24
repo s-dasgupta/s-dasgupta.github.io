@@ -1,0 +1,135 @@
+{% assign _id = include.id | default: "sg-slider" %}
+{% assign _items = include.items | default: site.empty_array %}
+
+<div id="{{ _id }}" class="sg-slider" aria-label="Photo gallery">
+  <div class="sg-slider-viewport">
+    {% for it in _items %}
+    <figure class="sg-slide">
+      <img src="{{ it.src | escape }}" alt="{{ it.alt | default: 'Photo ' | append: forloop.index | escape }}">
+      {% if it.caption %}
+      <figcaption>{{ it.caption }}</figcaption>
+      {% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+
+  <button class="sg-nav sg-prev" aria-label="Previous slide" type="button">&#10094;</button>
+  <button class="sg-nav sg-next" aria-label="Next slide" type="button">&#10095;</button>
+
+  <div class="sg-dots" role="tablist" aria-label="Slide dots"></div>
+</div>
+
+<style>
+/* ===== Simple, responsive slider, no frameworks ===== */
+#{{ _id }}.sg-slider { position: relative; max-width: 960px; margin: 1.5rem auto; }
+#{{ _id }} .sg-slider-viewport {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+#{{ _id }} .sg-slide { margin: 0; position: relative; }
+#{{ _id }} .sg-slide img { width: 100%; height: auto; display: block; object-fit: cover; }
+#{{ _id }} .sg-slide figcaption {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45); color: #fff; padding: .4rem .6rem; font-size: .9rem;
+}
+
+/* Nav buttons */
+#{{ _id }} .sg-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(0,0,0,0.45); color: #fff; border: 0; padding: .4rem .6rem;
+  cursor: pointer; font-size: 1.25rem; line-height: 1; border-radius: 4px;
+}
+#{{ _id }} .sg-prev { left: .5rem; }
+#{{ _id }} .sg-next { right: .5rem; }
+#{{ _id }} .sg-nav:focus { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* Dots */
+#{{ _id }} .sg-dots { display: flex; justify-content: center; gap: .5rem; margin-top: .6rem; flex-wrap: wrap; }
+#{{ _id }} .sg-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #cfcfcf; border: 0; cursor: pointer;
+}
+#{{ _id }} .sg-dot[aria-selected="true"] { background: #555; }
+
+/* Pause hint on hover for desktops */
+@media (hover:hover) {
+  #{{ _id }}.sg-slider:hover .sg-nav { background: rgba(0,0,0,0.6); }
+}
+</style>
+
+<script>
+(function () {
+  const root = document.currentScript.previousElementSibling.previousElementSibling; // the slider div
+  const viewport = root.querySelector('.sg-slider-viewport');
+  const slides = Array.from(root.querySelectorAll('.sg-slide'));
+  const prevBtn = root.querySelector('.sg-prev');
+  const nextBtn = root.querySelector('.sg-next');
+  const dotsWrap = root.querySelector('.sg-dots');
+
+  let index = 0;
+  let timer = null;
+  const INTERVAL = 4000; // ms
+
+  if (!slides.length) return;
+
+  // Build dots
+  slides.forEach((_, i) => {
+    const b = document.createElement('button');
+    b.className = 'sg-dot';
+    b.type = 'button';
+    b.setAttribute('role', 'tab');
+    b.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+    b.addEventListener('click', () => go(i, true));
+    dotsWrap.appendChild(b);
+  });
+
+  function updateDots() {
+    const dots = dotsWrap.querySelectorAll('.sg-dot');
+    dots.forEach((d, i) => d.setAttribute('aria-selected', i === index ? 'true' : 'false'));
+  }
+
+  function go(i, user = false) {
+    index = (i + slides.length) % slides.length;
+    viewport.scrollTo({ left: index * viewport.clientWidth, behavior: user ? 'smooth' : 'auto' });
+    updateDots();
+    if (user) restart();
+  }
+
+  function next() { go(index + 1); }
+  function prev() { go(index - 1); }
+
+  function start() {
+    if (timer) return;
+    timer = setInterval(next, INTERVAL);
+  }
+  function stop() { clearInterval(timer); timer = null; }
+  function restart() { stop(); start(); }
+
+  // Resize handling to keep alignment
+  window.addEventListener('resize', () => go(index));
+
+  // Buttons
+  nextBtn.addEventListener('click', () => go(index + 1, true));
+  prevBtn.addEventListener('click', () => go(index - 1, true));
+
+  // Pause on hover or focus within
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  root.addEventListener('focusin', stop);
+  root.addEventListener('focusout', start);
+
+  // Keyboard nav
+  root.tabIndex = 0;
+  root.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') go(index + 1, true);
+    if (e.key === 'ArrowLeft')  go(index - 1, true);
+  });
+
+  // Init
+  updateDots();
+  start();
+})();
+</script>
