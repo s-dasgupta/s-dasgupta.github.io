@@ -26,7 +26,7 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : "He/His" # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "33.21945709748367, -87.53713856342382"
+  location         : "33.2194, -87.5371"
   employer         : "The University of Alabama"
   uri              : "sagardasgupta.me" # URL
   email            : "sdasgupta@ua.edu" 
