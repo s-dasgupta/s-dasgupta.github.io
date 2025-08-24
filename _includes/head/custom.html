@@ -5,7 +5,7 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -17,8 +17,27 @@
 <!-- end custom head snippets -->
 
 <style>
-/* ---------- Typography: make right column match sidebar ---------- */
+/* ----------------- Font stack used by the sidebar ----------------- */
+:root {
+  --sd-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+             "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* ----------------- Make the right column use the same stack ----------------- */
+/* Hit all main content wrappers used by AcademicPages / Minimal Mistakes */
+.page,
+.page__inner-wrap,
 .page__content,
+.archive,
+.archive__item,
+article,
+article p,
+article li,
+article dt,
+article dd,
+article table,
+article code,
+article pre,
 .page__content p,
 .page__content li,
 .page__content dt,
@@ -32,18 +51,21 @@
 .page__content h4,
 .page__content h5,
 .page__content h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
-               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !important;
+  font-family: var(--sd-sans) !important;
 }
+
+/* Heading weight to match sidebar feel */
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .page__content h4,
 .page__content h5,
 .page__content h6 { font-weight: 600; }
+
+/* Tone down extra-heavy bold in paragraphs */
 .page__content strong { font-weight: 600; }
 
-/* ---------- Hero card (photo + designation) ---------- */
+/* ----------------- Hero card (photo + designation) ----------------- */
 .hero-card{
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -74,16 +96,16 @@
 
 .hero-title{ margin: 0 0 .25rem 0; font-weight: 600; }
 
-/* remove gaps between lines on the right */
-.hero-meta p{ margin: 0; }
-.hero-line{ margin: 0; line-height: 1.2; }
-.hero-line + .hero-line{ margin-top: 0; }
+/* Remove gaps between hero lines */
+.hero-meta p { margin: 0; }
+.hero-line { margin: 0; line-height: 1.2; }
+.hero-line + .hero-line { margin-top: 0; }
 
-.hero-icons{ margin: .4rem 0 0 0; }
-.hero-icon{ font-size: 1.6rem; margin-right: .5rem; color: #333; }
-.hero-icon:hover{ opacity: .85; }
+.hero-icons { margin: .4rem 0 0 0; }
+.hero-icon { font-size: 1.6rem; margin-right: .5rem; color: #333; }
+.hero-icon:hover { opacity: .85; }
 
-/* ---------- Responsive ---------- */
+/* ----------------- Responsive ----------------- */
 @media (max-width: 720px){
   .hero-card{ grid-template-columns: 1fr; text-align: center; }
   .hero-photo{ max-width: 260px; margin: 0 auto; }
