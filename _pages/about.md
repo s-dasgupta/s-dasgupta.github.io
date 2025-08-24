@@ -72,5 +72,5 @@ He earned the Ph.D. in Civil Engineering from The University of Alabama under Pr
 
 📧 **Email**: [sdasgupta@ua.edu](mailto:sdasgupta@ua.edu)  
 🔗 **Website**: [sagardasgupta.me](https://www.sagardasgupta.me)  
-🔗 **Google Scholar**[](https://scholar.google.com/citations?user=rMHBcRYAAAAJ&hl=en)  
-🔗 **LinkedIn**[](https://www.linkedin.com/in/sagar-dasgupta-692567201/)  
+🔗 **Google Scholar**[Sagar Dasgupta](https://scholar.google.com/citations?user=rMHBcRYAAAAJ&hl=en)  
+🔗 **LinkedIn**[Sagar Dasgupta Ph.D.](https://www.linkedin.com/in/sagar-dasgupta-692567201/)  
