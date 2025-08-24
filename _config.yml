@@ -12,9 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Dr. Dasgupta"
 title_separator          : "-"
 name                     : &name "Sagar Dasgupta"
-description              : &description "I am a Postdoctoral Fellow at the University of Alabama, specializing in GNSS-based autonomous vehicle navigation systems cybersecurity and transportation digital twins. My research interests also include automotive cybersecurity and autonomous vehicles safety.
-Before my current role, I completed my Ph.D. in Civil Engineering at the University of Alabama, where my dissertation focused on securing autonomous vehicle navigation systems under the guidance of Professor Mizanur Rahman. My research was supported by the National Science Foundation (NSF) and the Alabama Transportation Institute. Additionally, I hold an M.S. in Mechanical Engineering from Clemson University and a B.Tech. in Mechanical Engineering from the Motilal Nehru National Institute of Technology, Prayagraj, India.
-I am actively seeking a tenure-track Assistant Professor position and am open to collaboration in proposal writing. I have contributed to the development and writing of multiple NSF and FMCSA proposals, which have secured funding. My collaborations span both industry and academia, and I have experience working with multidisciplinary teams across Computer Science, Electrical Engineering, Aerospace Engineering, and Physics departments."
+description              : &description 
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -24,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  #avatar           : "/images/Dasguapta_DP.jpg"
+  avatar           : "/images/Dasguapta_DP_reducedsize.jpg"
   name             : "Sagar Dasgupta"
   pronouns         : "He/His" # example: "she/her"  
   bio              : "Advancing Intelligent Transportation and Mobility"
