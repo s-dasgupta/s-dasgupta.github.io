@@ -12,6 +12,7 @@ hero:
   surname: "DASGUPTA"
   title: "Postdoctoral Fellow"
   lines:
+    - 'USDOT National Center for Transportation Cybersecurity and Resiliency (TraCR)'
     - 'Connected and Automated Mobility Lab'
     - 'Civil, Construction, and Environmental Engineering Department'
     - 'The University of Alabama'
