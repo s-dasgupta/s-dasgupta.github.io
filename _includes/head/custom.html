@@ -15,3 +15,35 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
+
+<style>
+/* Make the main content (right side) use the same system sans-serif stack as the sidebar */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dt,
+.page__content dd,
+.page__content table,
+.page__content code,
+.page__content pre,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !important;
+}
+
+/* Optional tweaks so headings match the sidebar feel */
+.page__content h1,
+.page__content h2 { font-weight: 600; }
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 { font-weight: 600; }
+
+/* Optional, tones down extra-heavy bold in paragraphs */
+.page__content strong { font-weight: 600; }
+</style>
