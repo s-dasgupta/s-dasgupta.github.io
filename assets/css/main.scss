@@ -3,9 +3,7 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * The first two lines are required by Jekyll.
  */
 
 @import
@@ -41,3 +39,38 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ============================================================
+   FONT UNIFICATION OVERRIDES
+   Make the right column use the same sans-serif stack as sidebar
+   These rules come AFTER all imports, so they take precedence.
+   ============================================================ */
+
+$sd-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+/* Body and main wrappers */
+html, body, .page, .page__inner-wrap, .wrapper, .initial-content {
+  font-family: $sd-sans;
+}
+
+/* Main content area */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dt,
+.page__content dd,
+.page__content table {
+  font-family: $sd-sans;
+}
+
+/* Headings and page title */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: $sd-sans;
+  font-weight: 600;
+}
+
+/* Optional, keep bold readable not overly heavy */
+.page__content strong { font-weight: 600; }
