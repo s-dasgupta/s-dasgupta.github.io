@@ -1,10 +1,11 @@
 ---
-permalink: /about/
-title: "About Me"
+permalink: /
+title: "Hello, I am Sagar!"
+excerpt: "About me"
 author_profile: true
 redirect_from:
  -/about/
- -/about.md
+ -/about.html
 ---
 
 # About Me
