@@ -25,6 +25,7 @@ I am actively **seeking a tenure-track Assistant Professor position** and open t
 # Recent News
 
 ### 2025
+- **Citations Crossed 300 (June).** 
 - **Award (May):** Received the *Outstanding Research by a Ph.D. Student Award* from the University of Alabama CCEE Department.  
 - **Funding (February):** Co-PI on multiple USDOT TraCR projects, including *Trustworthy Autonomous Vehicle Navigation through Cyber Resilience* and *PQC-enabled V2X Communication*.  
 - **Preprints (Jan–Aug):** Published multiple preprints on *Indoor Navigation with SpatialLM*, *OpenCAMS co-simulation platform*, and *Work Zone Safety sensor fusion deployment*.  
