@@ -8,21 +8,26 @@ redirect_from:
  -/about.html
 ---
 
-# About Me
+## Bio
 
-I am a **Postdoctoral Fellow at the University of Alabama**, specializing in **GNSS-based autonomous vehicle navigation systems cybersecurity** and **transportation digital twins**.  
-My research interests also include **automotive cybersecurity** and **autonomous vehicle safety**.  
+Dr. Sagar Dasgupta is a Postdoctoral Fellow in the Department of Civil, Construction, and Environmental Engineering at The University of Alabama, working with the USDOT National Center for Transportation Cybersecurity and Resiliency (TraCR). His research focuses on cyber-resilient GNSS-based navigation for autonomous vehicles, transportation digital twins, and C-V2X security. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
 
-Before my current role, I completed my **Ph.D. in Civil Engineering** at the University of Alabama, where my dissertation focused on **cyber-resilient autonomous vehicle navigation systems** under the guidance of **Professor Mizanur Rahman**.  
-My work was supported by the **National Science Foundation (NSF)** and the **Alabama Transportation Institute**.  
+He has contributed to multiple federally funded projects and proposals, including NSF CAREER and CRII awards, the TraCR university transportation center, and FMCSA projects on work-zone safety. Recent TraCR projects include roles as Co-PI on trustworthy autonomous vehicle navigation and post-quantum-ready V2X. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
 
-I also hold an **M.S. in Mechanical Engineering** from **Clemson University** and a **B.Tech. in Mechanical Engineering** from **Motilal Nehru National Institute of Technology, Prayagraj, India**.  
+Dr. Dasgupta’s technology demonstrations include team-lead roles at the USDOT Future of Transportation Summit 2024 and at the IEEE International Automated Vehicle Validation Conference 2023. He also presented at the TraCR Annual Conference 2024. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
 
-I am actively **seeking a tenure-track Assistant Professor position** and open to **collaborations in proposal writing**. I have contributed to the development of multiple **NSF and FMCSA proposals**, some of which secured funding. My collaborations span both **industry and academia**, involving researchers from **Computer Science, Electrical Engineering, Aerospace Engineering, and Physics**.
+He earned the Ph.D. in Civil Engineering at The University of Alabama under Prof. Mizanur Rahman, with the dissertation “Cyber-Resilient Positioning and Navigation for Autonomous Ground Vehicles.” He holds an M.S. in Mechanical Engineering from Clemson University and a B.Tech. in Mechanical Engineering from Motilal Nehru National Institute of Technology, India. :contentReference[oaicite:6]{index=6}
+
+His publications span journals such as IEEE Internet of Things Journal, IEEE Transactions on Intelligent Transportation Systems, and Transportation Research Record. :contentReference[oaicite:7]{index=7}
+
+Recent recognitions include Outstanding Research by a Ph.D. Student Award (UA CCEE, 2025), second place in the TraCR Annual Conference student poster competition (2024), the GRITS Scholarship (2023 and 2024), and the Lifesavers Traffic Safety Scholar Award (2023). :contentReference[oaicite:8]{index=8}
+
+Dr. Dasgupta serves the community as a member of the IEEE VTS Committee on Autonomous Vehicles, as a Friends-of-Committee participant in several TRB standing committees, and as a reviewer for leading journals including IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Vehicular Technology, and Transportation Research Record. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+
 
 ---
 
-# Recent News
+## Recent News
 
 ### 2025
 - **Citations Crossed 300 (June).** 
@@ -52,15 +57,15 @@ I am actively **seeking a tenure-track Assistant Professor position** and open t
 
 ---
 
-# Curriculum Vitae
+## Curriculum Vitae
 
 📄 [Download my CV (PDF)](/files/CV_Dasgupta_08212025.pdf)
 
 ---
 
-# Contact
+## Contact
 
 📧 **Email**: [sdasgupta@ua.edu](mailto:sdasgupta@ua.edu)  
 🔗 **Website**: [sagardasgupta.me](https://www.sagardasgupta.me)  
-🔗 **Google Scholar**: [Scholar Profile](https://scholar.google.com/citations?user=rMHBcRYAAAAJ&hl=en)  
-🔗 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/sagar-dasgupta-692567201/)  
+🔗 **Google Scholar**(https://scholar.google.com/citations?user=rMHBcRYAAAAJ&hl=en)  
+🔗 **LinkedIn**(https://www.linkedin.com/in/sagar-dasgupta-692567201/)  
