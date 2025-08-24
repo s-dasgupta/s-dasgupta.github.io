@@ -20,6 +20,27 @@ hero:
     - '28 Kirkbride Lane, Tuscaloosa, AL 35487'
     - '<a href="mailto:sdasgupta@ua.edu">sdasgupta@ua.edu</a>'
 ---
+<!-- Page-only font fix -->
+<style>
+/* Use the same sans stack as the sidebar.
+   This style lives only on this page, so it won't affect others. */
+.page__title,
+.page__content,
+.page__content *:not(code):not(pre):not(kbd):not(samp) {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !important;
+}
+
+/* Headings and bold weight to match the sidebar feel */
+.page__title,
+.page__content h1, .page__content h2, .page__content h3,
+.page__content h4, .page__content h5, .page__content h6 {
+  font-weight: 600 !important;
+}
+.page__content strong { font-weight: 600 !important; }
+</style>
+
+
 {% include hero.html hero=page.hero %}
 
 ## Bio
