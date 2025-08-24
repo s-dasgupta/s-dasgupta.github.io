@@ -20,7 +20,7 @@ hero:
     - '<a href="mailto:sdasgupta@ua.edu">sdasgupta@ua.edu</a>'
 ---
 {% include hero.html hero=page.hero %}
-{% include slider.html id="about-gallery" items=page.gallery %}
+
 ## Bio
 
 Dr. Sagar Dasgupta is a Postdoctoral Fellow in the Department of Civil, Construction, and Environmental Engineering at The University of Alabama, working with the USDOT National Center for Transportation Cybersecurity and Resiliency (TraCR). His research focuses on cyber-resilient GNSS-based navigation for autonomous vehicles, transportation digital twins, and C-V2X security.
