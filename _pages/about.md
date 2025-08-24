@@ -12,7 +12,7 @@ hero:
   surname: "DASGUPTA"
   title: "Postdoctoral Fellow"
   lines:
-    - 'Connected and Automated Mobility Lab</strong>'
+    - 'Connected and Automated Mobility Lab'
     - 'Civil, Construction, and Environmental Engineering Department'
     - 'The University of Alabama'
     - '2009 SCIB (Smart Communities and Innovation Building)'
